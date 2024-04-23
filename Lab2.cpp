@@ -78,7 +78,7 @@ int main() {
     }else {
          larger_cube_volume = cube2.Volume();
     }
-    double num_smaller_cubes = larger_cube_volume / smaller_cube_volume; // сколько меньших кубов нужно, чтобы заполнить больший
+    double num_smaller_cubes = larger_cube_volume / smaller_cube_volume; // сколько меньших кубов с водой нужно, чтобы заполнить больший
 
     cout << "Характеристики первого куба:" << endl;
     cube1.DisplayCube();
